@@ -7,19 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D342A0B925DEB18D00280976 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342A0B825DEB18D00280976 /* ProjectView.swift */; };
+		D342A0BC25DEB1CC00280976 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342A0BB25DEB1CC00280976 /* StatusView.swift */; };
+		D342A0C025DEB20100280976 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342A0BF25DEB20100280976 /* SettingView.swift */; };
+		D342A0C425DF7BCC00280976 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D342A0C325DF7BCC00280976 /* TimerView.swift */; };
+		D3467BC625F3BB0700674E35 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3467BC525F3BB0700674E35 /* CustomModifier.swift */; };
+		D3467BCE25F3C5A500674E35 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3467BCD25F3C5A500674E35 /* TestingView.swift */; };
 		D34C616725DBA3000035F554 /* CirilloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C616625DBA3000035F554 /* CirilloApp.swift */; };
 		D34C616925DBA3000035F554 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C616825DBA3000035F554 /* ContentView.swift */; };
 		D34C616B25DBA3000035F554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34C616A25DBA3000035F554 /* Assets.xcassets */; };
 		D34C616E25DBA3000035F554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34C616D25DBA3000035F554 /* Preview Assets.xcassets */; };
+		D3790F9D25FB10BB00BEB23F /* TimerSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3790F9C25FB10BB00BEB23F /* TimerSetView.swift */; };
+		D3790FA025FB118C00BEB23F /* AppIconSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3790F9F25FB118C00BEB23F /* AppIconSetView.swift */; };
+		D3790FA325FB129D00BEB23F /* ThemeSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3790FA225FB129D00BEB23F /* ThemeSetView.swift */; };
+		D3790FA625FB12B800BEB23F /* TimerThemeSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3790FA525FB12B800BEB23F /* TimerThemeSetView.swift */; };
+		D3790FA925FB12D500BEB23F /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3790FA825FB12D500BEB23F /* SupportView.swift */; };
+		D3790FAC25FB12E800BEB23F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3790FAB25FB12E800BEB23F /* AboutView.swift */; };
+		D3790FAF25FB130000BEB23F /* DeveloperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3790FAE25FB130000BEB23F /* DeveloperView.swift */; };
+		D3A6142A25DC16E200C6502F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A6142925DC16E200C6502F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D342A0B825DEB18D00280976 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		D342A0BB25DEB1CC00280976 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		D342A0BF25DEB20100280976 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		D342A0C325DF7BCC00280976 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		D3467BC525F3BB0700674E35 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		D3467BCD25F3C5A500674E35 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		D34C616325DBA3000035F554 /* Cirillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cirillo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34C616625DBA3000035F554 /* CirilloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirilloApp.swift; sourceTree = "<group>"; };
 		D34C616825DBA3000035F554 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D34C616A25DBA3000035F554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34C616D25DBA3000035F554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D34C616F25DBA3000035F554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3790F9C25FB10BB00BEB23F /* TimerSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSetView.swift; sourceTree = "<group>"; };
+		D3790F9F25FB118C00BEB23F /* AppIconSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconSetView.swift; sourceTree = "<group>"; };
+		D3790FA225FB129D00BEB23F /* ThemeSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSetView.swift; sourceTree = "<group>"; };
+		D3790FA525FB12B800BEB23F /* TimerThemeSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerThemeSetView.swift; sourceTree = "<group>"; };
+		D3790FA825FB12D500BEB23F /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		D3790FAB25FB12E800BEB23F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		D3790FAE25FB130000BEB23F /* DeveloperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperView.swift; sourceTree = "<group>"; };
+		D3A6142925DC16E200C6502F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3467BD125F3C5F000674E35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3467BCD25F3C5A500674E35 /* TestingView.swift */,
+				D3790F9425FB0FAE00BEB23F /* Main */,
+				D3790F9525FB0FD600BEB23F /* Setting */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D34C615A25DBA3000035F554 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +90,10 @@
 		D34C616525DBA3000035F554 /* Cirillo */ = {
 			isa = PBXGroup;
 			children = (
+				D3A6142925DC16E200C6502F /* Launch Screen.storyboard */,
 				D34C616625DBA3000035F554 /* CirilloApp.swift */,
-				D34C616825DBA3000035F554 /* ContentView.swift */,
+				D3467BC525F3BB0700674E35 /* CustomModifier.swift */,
+				D3467BD125F3C5F000674E35 /* Views */,
 				D34C616A25DBA3000035F554 /* Assets.xcassets */,
 				D34C616F25DBA3000035F554 /* Info.plist */,
 				D34C616C25DBA3000035F554 /* Preview Content */,
@@ -67,6 +107,32 @@
 				D34C616D25DBA3000035F554 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3790F9425FB0FAE00BEB23F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D34C616825DBA3000035F554 /* ContentView.swift */,
+				D342A0C325DF7BCC00280976 /* TimerView.swift */,
+				D342A0B825DEB18D00280976 /* ProjectView.swift */,
+				D342A0BB25DEB1CC00280976 /* StatusView.swift */,
+				D342A0BF25DEB20100280976 /* SettingView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D3790F9525FB0FD600BEB23F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D3790F9C25FB10BB00BEB23F /* TimerSetView.swift */,
+				D3790F9F25FB118C00BEB23F /* AppIconSetView.swift */,
+				D3790FA225FB129D00BEB23F /* ThemeSetView.swift */,
+				D3790FA525FB12B800BEB23F /* TimerThemeSetView.swift */,
+				D3790FA825FB12D500BEB23F /* SupportView.swift */,
+				D3790FAB25FB12E800BEB23F /* AboutView.swift */,
+				D3790FAE25FB130000BEB23F /* DeveloperView.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A6142A25DC16E200C6502F /* Launch Screen.storyboard in Resources */,
 				D34C616E25DBA3000035F554 /* Preview Assets.xcassets in Resources */,
 				D34C616B25DBA3000035F554 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +205,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3790FA025FB118C00BEB23F /* AppIconSetView.swift in Sources */,
+				D342A0C425DF7BCC00280976 /* TimerView.swift in Sources */,
+				D3790FA325FB129D00BEB23F /* ThemeSetView.swift in Sources */,
+				D3467BC625F3BB0700674E35 /* CustomModifier.swift in Sources */,
 				D34C616925DBA3000035F554 /* ContentView.swift in Sources */,
+				D3790FA925FB12D500BEB23F /* SupportView.swift in Sources */,
+				D3790FA625FB12B800BEB23F /* TimerThemeSetView.swift in Sources */,
+				D342A0B925DEB18D00280976 /* ProjectView.swift in Sources */,
+				D3790FAC25FB12E800BEB23F /* AboutView.swift in Sources */,
+				D342A0C025DEB20100280976 /* SettingView.swift in Sources */,
+				D3790F9D25FB10BB00BEB23F /* TimerSetView.swift in Sources */,
+				D3467BCE25F3C5A500674E35 /* TestingView.swift in Sources */,
+				D3790FAF25FB130000BEB23F /* DeveloperView.swift in Sources */,
 				D34C616725DBA3000035F554 /* CirilloApp.swift in Sources */,
+				D342A0BC25DEB1CC00280976 /* StatusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,20 +347,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Cirillo/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Cirillo/Preview\\ Content";
 				DEVELOPMENT_TEAM = DW8PG2JYW5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Cirillo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brian.chang.Cirillo;
+				MARKETING_VERSION = 0.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brian.cirillo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,20 +373,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Cirillo/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Cirillo/Preview\\ Content";
 				DEVELOPMENT_TEAM = DW8PG2JYW5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Cirillo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brian.chang.Cirillo;
+				MARKETING_VERSION = 0.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brian.cirillo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
